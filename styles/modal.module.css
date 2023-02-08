@@ -124,7 +124,7 @@
 @media only screen and (max-width: 690px) {
   .boxes{
     width: 500px;
-    height: 43%;
+    height: 55%;
   }
   .modalContainer{
     height: 100%;
@@ -163,6 +163,7 @@
   }
   .boxes{
     width: 400px;
+    height: 55%;
   }
   .partOne{
     display: none;
@@ -171,10 +172,13 @@
 @media only screen and (max-width: 440px){
   .boxes{
     width: 300px;
+    height: 60%;
   }
 }
 @media only screen and (max-width: 330px){
   .boxes{
     width: 280px;
+    height: 62%;
+
   }
 }
