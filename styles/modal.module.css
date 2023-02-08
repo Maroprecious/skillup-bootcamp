@@ -124,10 +124,6 @@
 @media only screen and (max-width: 690px) {
   .boxes{
     width: 500px;
-    height:500px;
-  }
-  .modalContainer{
-    height: 500px;
   }
   .secondPart{
     width: 60%;
