@@ -21,4 +21,10 @@ a {
   .MuiFormControlLabel-label {
     font-size: 0.7rem;
   }
+  .MuiFormControlLabel-root
+    .MuiFormControlLabel-labelPlacementEnd
+    .css-j204z7-MuiFormControlLabel-root {
+    font-size: 0.7rem;
+    font-family: "Outfit", sans-serif;
+  }
 }
