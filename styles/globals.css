@@ -31,5 +31,12 @@ a {
   .css-ahj2mt-MuiTypography-root {
     font-size: 0.7rem;
   }
-
+  .css-9l3uo3 {
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+  }
 }
