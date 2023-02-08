@@ -10,33 +10,20 @@ a {
   text-decoration: none;
 }
 .MuiFormControlLabel-label {
-  font-family: "Outfit", sans-serif;
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: .8rem !important;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    display: none;
 }
 .modal_secondPart__maq6S form label {
   font-weight: 800;
   font-family: "Outfit", sans-serif;
 }
-.css-ahj2mt-MuiTypography-root {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 0.9rem;
-}
-.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-}
-
 @media only screen and (max-width: 690px) {
   .MuiFormControlLabel-label {
-    font-size: 0.7rem;
-  }
-  .css-ahj2mt-MuiTypography-root {
-    font-size: 0.7rem;
-  }
-  .css-9l3uo3 {
-    margin: 0px;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: .8rem;
-    line-height: 1.5;
-    letter-spacing: 0.00938em;
+    font-size: 0.7rem !important;
   }
 }
