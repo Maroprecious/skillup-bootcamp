@@ -1,6 +1,6 @@
 .modalContainer {
   width: 100%;
-  height: 600px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   background: rgba(248, 224, 224, 0.37);
@@ -124,10 +124,7 @@
 @media only screen and (max-width: 690px) {
   .boxes{
     width: 500px;
-    height: 55%;
-  }
-  .modalContainer{
-    height: 100%;
+    height: 50%;
   }
   .secondPart{
     width: 60%;
@@ -163,7 +160,7 @@
   }
   .boxes{
     width: 400px;
-    height: 55%;
+    height: 63%;
   }
   .partOne{
     display: none;
@@ -172,13 +169,10 @@
 @media only screen and (max-width: 440px){
   .boxes{
     width: 300px;
-    height: 60%;
   }
 }
 @media only screen and (max-width: 330px){
   .boxes{
     width: 280px;
-    height: 62%;
-
   }
 }
