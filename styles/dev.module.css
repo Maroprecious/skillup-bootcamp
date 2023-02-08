@@ -1,0 +1,258 @@
+.devArea {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 2rem;
+}
+.front {
+  width: 78%;
+}
+.back {
+  width: 80%;
+}
+.fullstack {
+  width: 89%;
+}
+.span {
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  color: #020202;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 0.1rem;
+  margin-top: 2.6rem;
+}
+.para {
+  color: #020202;
+  font-size: 0.9rem;
+  margin-top: -1.5rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  letter-spacing: 0.4px;
+}
+.link {
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-family: "Outfit", sans-serif;
+  margin-top: 1rem;
+  display: none;
+}
+.back .link {
+  margin-top: 2.2rem;
+}
+
+@media only screen and (max-width: 1190px) {
+  .fullstack {
+    width: 92%;
+  }
+  .front {
+    width: 82%;
+  }
+}
+@media only screen and (max-width: 1138px) {
+  .fullstack {
+    width: 93%;
+  }
+  .front {
+    width: 87%;
+  }
+  .back {
+    width: 89%;
+  }
+}
+@media only screen and (max-width: 1104px) {
+  .fullstack {
+    width: 100%;
+  }
+  .front {
+    width: 88%;
+  }
+  .back {
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .span {
+    font-size: 35px;
+    width: 53px;
+    height: 53px;
+    border-radius: 17px;
+  }
+  .head {
+    font-size: 1.4rem;
+    margin-top: 2.4rem;
+  }
+  .para {
+    font-size: 0.8rem;
+    margin-top: -1.5rem;
+  }
+  .fullstack {
+    width: 90%;
+  }
+  .front {
+    width: 82%;
+  }
+  .back {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .span {
+    font-size: 34px;
+    width: 55px;
+    height: 55px;
+    border-radius: 13px;
+  }
+  .head {
+    font-size: 1.7rem;
+    margin-top: 2.4rem;
+  }
+  .para {
+    font-size: 1rem;
+    margin-top: -1.5rem;
+    line-height: 1.4rem;
+  }
+  .link {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    margin-top: 1rem;
+  }
+  .front {
+    width: 83%;
+  }
+  .back {
+    width: 84%;
+  }
+  .fullstack {
+    width: 96%;
+  }
+  .devArea {
+    margin: auto auto;
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 997px) {
+  .span {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  .head {
+    font-size: 1.4rem;
+    margin-top: 2.4rem;
+  }
+  .para {
+    font-size: 0.8rem;
+    margin-top: -1.5rem;
+  }
+}
+@media only screen and (max-width: 841px) {
+  .para {
+    font-size: 0.77rem;
+    margin-top: -1.5rem;
+  }
+  .span {
+    font-size: 27px;
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+  }
+  .link {
+    font-size: .9rem;
+    padding: 0.6rem 1.4rem;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 779px) {
+  .span {
+    font-size: 27px;
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+  }
+  .head {
+    font-size: 1.2rem;
+  }
+  .link {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.3rem;
+  }
+  .para {
+    line-height: 1.2rem;
+  }
+  .devArea{
+    padding-top: 1rem;
+  }
+  .fullstack {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .span {
+    font-size: 25px;
+    width: 46px;
+    height: 46px;
+    border-radius: 11px;
+  }
+  .head {
+    font-size: 1.1rem;
+  }
+  .para {
+    font-size: 0.7rem;
+    margin-top: -1.1rem;
+  }
+  .link {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.3rem;
+  }
+  .devArea {
+    height: 80%;
+  }
+}
+@media only screen and (max-width: 589px) {
+  .devArea {
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .devArea {
+    padding-bottom: 1.5rem;
+  }
+  .head{
+    font-size: 1.05rem;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .fullstack{
+    width: 100%;
+  }
+  .para{
+    font-size: .65rem;
+    line-height: 1rem;
+  }
+  .span {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .head {
+    font-size: 1rem;
+  }
+}

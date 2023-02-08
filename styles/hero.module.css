@@ -1,0 +1,358 @@
+.heroBack {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.texts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  height: auto;
+  position: relative;
+}
+.para2 {
+  display: none;
+}
+.para3{
+  display: none;
+}
+.texts h2 {
+  font-size: 2.8rem;
+}
+.texts .para1 {
+  font-size: 0.95rem;
+  color: #020202;
+  font-weight: 300;
+  line-height: 1.4rem;
+  margin-top: -0.5rem;
+}
+.lines {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  margin-top: 10.6rem;
+  margin-left: 14.3rem;
+}
+.lines img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  position: relative;
+}
+.texts .call {
+  width: 9rem;
+  height: 3rem;
+  background-color: #000;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+.image {
+  width: 50%;
+  height: 100%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media only screen and (max-width: 1060px) {
+  .lines {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 11rem;
+    margin-left: 14.2rem;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .lines {
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-top: 9.7rem;
+    margin-left: 12.7rem;
+  }
+  .image {
+    height: 100%;
+  }
+  .texts h2 {
+    font-size: 2.5rem;
+  }
+  .texts .para1 {
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+  }
+  .texts {
+    margin-top: 3rem;
+  }
+  .texts .call {
+    margin-top: 1.2rem;
+  }
+}
+@media only screen and (max-width: 997px) {
+  .lines {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 8.3rem;
+    margin-left: 11rem;
+  }
+  .image {
+    height: 100%;
+  }
+  .texts h2 {
+    font-size: 2.27rem;
+  }
+  .texts .para1 {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .image {
+    width: 45%;
+  }
+  .texts h2 {
+    font-size: 2.15rem;
+  }
+  .texts .para1 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 829px) {
+  .image {
+    width: 45%;
+  }
+  .texts h2 {
+    font-size: 2rem;
+  }
+  .texts .para1 {
+    font-size: 0.77rem;
+    line-height: 1.2rem;
+  }
+  .texts {
+    margin-top: 1.5rem;
+  }
+  .texts .call {
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+  }
+  .lines {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-top: 7.7rem;
+    margin-left: 10.2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .texts h2 {
+    font-size: 1.7rem;
+  }
+  .texts .para1 {
+    font-size: 0.72rem;
+    line-height: 1.2rem;
+  }
+  .texts {
+    margin-top: 1.2rem;
+  }
+  .texts .call {
+    font-size: 0.8rem;
+  }
+  .lines {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 6.4rem;
+    margin-left: 8.7rem;
+  }
+}
+@media only screen and (max-width: 747px) {
+  .texts h2 {
+    font-size: 1.5rem;
+  }
+  .texts .para1 {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+  .texts {
+    margin-top: 1rem;
+  }
+  .texts .call {
+    font-size: 0.8rem;
+  }
+  .lines {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 5.6rem;
+    margin-left: 7.7rem;
+  }
+  .image {
+    width: 38%;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .lines {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .texts .para1 {
+    display: none;
+  }
+  .para2 {
+    font-size: 0.65rem;
+    line-height: 1rem;
+    margin-top: -0.2rem;
+    display: block;
+  }
+  .para3{
+    display: none;
+  }
+  .texts .call {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+  .image {
+    width: 43%;
+  }
+}
+@media only screen and (max-width: 616px) {
+  .texts h2 {
+    font-size: 1.3rem;
+  }
+  .para2 {
+    line-height: 0.9rem;
+  }
+  .texts .call {
+    margin-top: 0.7rem;
+  }
+  .lines {
+    margin-top: 5rem;
+    margin-left: 6.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .texts {
+    margin-top: 0.6rem;
+  }
+}
+@media only screen and (max-width: 537px) {
+  .texts h2 {
+    font-size: 1.1rem;
+  }
+  .lines {
+    margin-top: 4.3rem;
+    margin-left: 5.6rem;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .texts .call {
+    width: 5rem;
+    height: 1.8rem;
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+  }
+  .texts {
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 496px) {
+  .texts h2 {
+    font-size: 1rem;
+  }
+  .lines {
+    margin-top: 3.8rem;
+    margin-left: 5.1rem;
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  .texts .call {
+    width: 5rem;
+    height: 1.8rem;
+    font-size: 0.65rem;
+    margin-top: 0.3rem;
+  }
+  .texts {
+    margin-left: 2rem;
+  }
+  .image{
+    width: 40%;
+  }
+  .para2 {
+    font-size: 0.6rem;
+    line-height: .8rem;
+  }
+  .heroBack{
+    padding-bottom: 1.1rem;
+  }
+}
+@media only screen and (max-width: 458px){
+  .image{
+    width: 37%;
+  }
+  .para2 {
+    font-size: 0.5rem;
+    line-height: .65rem;
+  }
+  .texts .call {
+    width: 4rem;
+    height: 1.3rem;
+    font-size: 0.55rem;
+    margin-top: 0.3rem;
+  }
+}
+@media only screen and (max-width: 430px){
+  .texts h2{
+    font-size: .9rem;
+  }
+  .lines {
+    margin-top: 3.2rem;
+    margin-left: 4.6rem;
+    width: .9rem;
+    height: .9rem;
+  }
+  .image{
+    width: 42%;
+  }
+  .texts {
+    margin-left: 1.4rem;
+    margin-top: .4rem;
+  }
+}
+@media only screen and (max-width: 380px){
+  .texts h2{
+    font-size: .85rem;
+  }
+  .para3{
+    display: block;
+    font-size: 0.5rem;
+    line-height: .65rem;
+    margin-top: -.2rem;
+  }
+  .para2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 334px){
+  .para3{
+    font-size: .45rem;
+    line-height: .6rem;
+  }
+  .texts h2{
+    font-size: .75rem;
+  }
+  .lines {
+    margin-top: 2.7rem;
+    margin-left: 3.9rem;
+    width: .9rem;
+    height: .9rem;
+  }
+}

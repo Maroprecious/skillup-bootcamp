@@ -1,0 +1,180 @@
+.modalContainer {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(248, 224, 224, 0.37);
+  position: relative;
+}
+.partOne {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.parttext h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+.parttext p {
+  margin-top: -1rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.modalImg {
+  width: 25%;
+  margin-right: 75%;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.modalImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.partImg {
+  width: 100%;
+  height: auto;
+}
+.partImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.modaltext {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.secondPart {
+  width: 50%;
+  background: #fff;
+  height: 90%;
+  margin: auto auto;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.secondPart form {
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+.secondPart form span {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.secondPart form input {
+  width: 90%;
+  margin: 0.7rem auto;
+  padding-left: 7%;
+  border: none;
+  outline: 3px solid rgba(248, 224, 224, 0.25);
+  height: 1.8rem;
+  background: rgba(248, 224, 224, 0.37);
+}
+.secondPart form label {
+  font-size: 0.85rem;
+  color: rgba(255, 4, 4, 0.513);
+}
+.radio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.radio button {
+  width: 92%;
+  margin: 0.5rem auto;
+  background: rgb(167, 44, 44);
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.boxes{
+  width: 800px;
+}
+@media only screen and (max-width: 890px) {
+  .boxes{
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .boxes{
+    width: 650px;
+  }
+  .secondPart{
+    width: 60%;
+  }
+  .parttext h3{
+    font-size: 1.2rem;
+  }
+  .parttext p{
+    font-size: .85rem;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .boxes{
+    width: 500px;
+    height:500px;
+  }
+  .modalContainer{
+    height: 500px;
+  }
+  .secondPart{
+    width: 60%;
+  }
+  .parttext h3{
+    font-size: 1rem;
+  }
+  .parttext p{
+    font-size: .75rem;
+  }
+  .secondPart form label {
+    font-size: 0.75rem;
+  }
+  .modalImg {
+    width: 20%;
+    margin-right: 60%;
+    height: 2rem;
+  }
+  .partImg {
+    width: 100%;
+  }
+  .secondPart form input {
+    height: 1.3rem;
+    margin-top: .4rem;
+  }
+  .parttext h3 {
+    margin-top: .3rem;
+  }
+}
+@media only screen and (max-width: 530px){
+  .secondPart{
+    width: 95%;
+  }
+  .boxes{
+    width: 400px;
+  }
+  .partOne{
+    display: none;
+  }
+}
+@media only screen and (max-width: 440px){
+  .boxes{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 330px){
+  .boxes{
+    width: 280px;
+  }
+}

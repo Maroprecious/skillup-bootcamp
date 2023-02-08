@@ -1,0 +1,102 @@
+.infoBack {
+  background: url("/images/whatsapp.jpeg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5.2rem;
+}
+.textBtn {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textBtn h2 {
+  font-size: 2rem;
+}
+.btns {
+  display: flex;
+  align-items: center;
+}
+.span1 {
+  background-color: #574db2;
+  padding: 0.4rem;
+  opacity: 0.37;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+}
+.span {
+  background-color: #574db2;
+  padding: 0.4rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.18rem;
+  border-radius: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+@media only screen and (max-width: 997px) {
+  .textBtn h2 {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 779px) {
+    .infoBack{
+        padding-bottom: 3rem;
+        height: 80%;
+    }
+    .textBtn{
+        padding-top: 1.5rem;
+    }
+    .textBtn h2{
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .infoBack{
+        padding-bottom: 3rem;
+        height: 70%;
+    }
+    .textBtn{
+        padding-top: 1.3rem;
+    }
+} 
+@media only screen and (max-width: 589px) {
+    .infoBack{
+        padding-bottom: 2rem;
+        height: 60%;
+    }
+    .textBtn{
+        padding-top: 1rem;
+    }
+    .textBtn h2{
+        font-size: 1.1rem;
+    }
+} 
+@media only screen and (max-width: 530px) {
+    .textBtn h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .textBtn h2{
+        font-size: .9rem;
+    }
+    .infoBack{
+      padding-bottom: .5rem;
+    }
+}

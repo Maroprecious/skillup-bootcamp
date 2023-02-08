@@ -1,0 +1,245 @@
+.signContainer {
+  width: 100%;
+  height: 100%;
+  background: #f7f6fc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+.imgContainer {
+  width: 45%;
+  height: auto;
+  margin-left: 10%;
+  margin: auto;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.text {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.check {
+  display: flex;
+  align-items: center;
+}
+.checked{
+  padding: .2rem .2rem;
+  background: #207BFF;
+  color: #fff;
+  border-radius: 50%;
+}
+.check p{
+  margin-left: .5rem;
+}
+.text .head {
+  font-size: 1.8rem;
+}
+.head2{
+  display: none;
+}
+.text p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+.signBtn {
+  width: 180px;
+  height: 60px;
+  margin-top: 1.5rem;
+  border-radius: 0.7rem;
+  outline: none;
+  border: none;
+  font-family: "Outfit", sans-serif;
+  background: #207bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+  .imgContainer {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -2rem;
+  }
+  .text {
+    margin-top: -3.4rem;
+  }
+  .check {
+    margin-top: -0.3rem;
+  }
+  .signBtn {
+    width: 170px;
+    height: 60px;
+    margin-top: 1.2rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 997px) {
+  .text .head {
+    font-size: 1.35rem;
+  }
+  .text {
+    margin-top: -2rem;
+  }
+  .text p {
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 0.98rem;
+  }
+  .signBtn {
+    width: 140px;
+    height: 45px;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+  }
+  .imgContainer {
+    width: 45%;
+    height: auto;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .text {
+    margin-top: -2.5rem;
+  }
+  .imgContainer {
+    width: 48%;
+    height: auto;
+    margin-left: 5%;
+  }
+  .checked{
+    padding: .15rem .15rem;
+  }
+}
+@media only screen and (max-width: 829px) {
+  .text .head {
+    font-size: 1.2rem;
+  }
+  .text p {
+    font-size: 0.75rem;
+    line-height: 0.92rem;
+  }
+  .signBtn {
+    top: 87%;
+  }
+  .text {
+    width: 40%;
+    height: 60%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .signBtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .imgContainer {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+  }
+  .checked{
+    padding: .1rem .1rem;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .signBtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .imgContainer {
+    width: 50%;
+    height: auto;
+    margin-left: 3%;
+  }
+  .text .head {
+    font-size: 1.1rem;
+  }
+  .text p {
+    font-size: 0.7rem;
+    line-height: 0.92rem;
+  }
+}
+@media only screen and (max-width: 626px) {
+  .signBtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .imgContainer {
+    width: 48%;
+    height: auto;
+    margin-left: 4%;
+  }
+  .text .head {
+    font-size: 1.05rem;
+  }
+  .text p {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  .text{
+    margin-right: 3%;
+  }
+}
+@media only screen and (max-width: 618px){
+  .signContainer {
+   flex-direction: column;
+  }
+  .imgContainer{
+    width: 80%;
+    margin: auto;
+  }
+  .text .head{
+    display: none;
+  }
+  .head2{
+    display: block;
+    font-size: 1.05rem;
+  }
+  .text{
+    width: 80%;
+    margin: auto;
+  }
+  .check{
+    text-align: justify;
+    align-items: justify;
+  }
+}
+@media only screen and (max-width: 500px){
+  .signContainer {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+  }
+  .imgContainer{
+    width: 80%;
+    margin: auto;
+  }
+  .text{
+    width: 80%;
+    margin: auto auto;
+  }
+  .check{
+    text-align: justify;
+    align-items: justify;
+  }
+  .checked{
+    padding: .05rem .05rem;
+  }
+}
