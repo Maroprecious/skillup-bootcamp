@@ -22,7 +22,6 @@ export default function RadioButtonsGroup() {
             value="fullstack"
             control={<Radio />}
             label="Fullstack"
-            className={style.radiotext}
           />
           <FormControlLabel
             value="frontend"
