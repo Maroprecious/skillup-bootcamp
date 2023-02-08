@@ -99,41 +99,48 @@
   color: #fff;
   font-family: "Outfit", sans-serif;
 }
-.boxes{
+.boxes {
   width: 800px;
+  height: 85%;
+}
+@media only screen and (max-width: 1100px) {
+  .boxes {
+    width: 700px;
+    height: 75%;
+  }
 }
 @media only screen and (max-width: 890px) {
-  .boxes{
+  .boxes {
     width: 700px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .boxes{
+  .boxes {
     width: 650px;
   }
-  .secondPart{
+  .secondPart {
     width: 60%;
   }
-  .parttext h3{
+  .parttext h3 {
     font-size: 1.2rem;
   }
-  .parttext p{
-    font-size: .85rem;
+  .parttext p {
+    font-size: 0.85rem;
   }
 }
 @media only screen and (max-width: 690px) {
-  .boxes{
+  .boxes {
     width: 500px;
-    height: 50%;
+    height: 65%;
   }
-  .secondPart{
+  .secondPart {
     width: 60%;
   }
-  .parttext h3{
+  .parttext h3 {
     font-size: 1rem;
   }
-  .parttext p{
-    font-size: .75rem;
+  .parttext p {
+    font-size: 0.75rem;
   }
   .secondPart form label {
     font-size: 0.75rem;
@@ -148,31 +155,31 @@
   }
   .secondPart form input {
     height: 1.3rem;
-    margin-top: .4rem;
+    margin-top: 0.4rem;
   }
   .parttext h3 {
-    margin-top: .3rem;
+    margin-top: 0.3rem;
   }
 }
-@media only screen and (max-width: 530px){
-  .secondPart{
+@media only screen and (max-width: 530px) {
+  .secondPart {
     width: 95%;
   }
-  .boxes{
+  .boxes {
     width: 400px;
-    height: 58%;
+    height: 64%;
   }
-  .partOne{
+  .partOne {
     display: none;
   }
 }
-@media only screen and (max-width: 440px){
-  .boxes{
+@media only screen and (max-width: 440px) {
+  .boxes {
     width: 300px;
   }
 }
-@media only screen and (max-width: 330px){
-  .boxes{
+@media only screen and (max-width: 330px) {
+  .boxes {
     width: 280px;
   }
 }
