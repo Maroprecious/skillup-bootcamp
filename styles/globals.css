@@ -25,9 +25,4 @@ a {
   .MuiFormControlLabel-label {
     font-size: 0.9rem ! important ;
   }
-.MuiButtonBase-root .MuiRadio-colorPrimary .PrivateSwitchBase-root .MuiRadio-root{
-  width: .5rem;
-}
-
-  
 }
