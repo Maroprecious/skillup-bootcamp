@@ -58,7 +58,7 @@ const Development = () => {
           </span>
           <h6 className={style.head}>Backend Development</h6>
           <p className={style.para}>
-            Be the login boss. Create the architecture that powers the front
+            Be the logic boss. Create the architecture that powers the front
             end of any application. You’ll learn the standards. Best practices,
             and all you need to be a certified backend engineer.
           </p>
@@ -99,10 +99,10 @@ const Development = () => {
           </span>
           <h6 className={style.head}>Mobile App Development</h6>
           <p className={style.para}>
-            The stack to make you ready to launch your startup, build your own
-            product and apply for senior developer roles. You’ll learn all it
-            takes to build the front end of any application, (Web and Mobile
-            Application). On completion, you will be ready to be your own boss.
+            Master every aspect of mobile app development for Android and IOS devices. 
+            this module teaches you development, testing, debugging and deployment. on completion,
+             you'll have all you need to be a mobile application developer.
+
           </p>
           <button
             style={{ background: "#7CD8EB", color: "#fff" }}

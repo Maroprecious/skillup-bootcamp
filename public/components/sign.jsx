@@ -7,7 +7,7 @@ const Sign = () => {
   return (
     <>
     <BasicModal open={isModalOpen} setOpen={setIsModalOpen}/>
-    <div className={style.signContainer}>
+    <div className={style.signContainer} id="3">
       <div className={style.imgContainer}>
         <img src="/images/boy.jpeg" />
       </div>

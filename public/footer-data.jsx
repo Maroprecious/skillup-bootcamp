@@ -20,7 +20,7 @@ const Data = [
   },
   {
     header: "Contact",
-    home: "skillup@gmail.com",
+    home: "skillupbootcampng@gmail.com",
     contact: "08145405006",
   },
 ];

@@ -25,8 +25,8 @@ const Footer = () => {
             {Data.map(({ header, home, contact, blog, faq }) => (
               <div className={style.list} id="1">
                 <h3>{header}</h3>
-                <p>{home}</p>
-                <p>{contact}</p>
+                <p>{home === 'skillupbootcampng@gmail.com' ? <a href='mailto:skillupbootcampng@gmail.com' style={{color: "#000"}}> skillupbootcampng@gmail.com </a> : home}</p>
+                <p>{contact === "08145405006" ? <a href='tel:+2348145405006' style={{color: "#000"}}>08145405006</a> : contact}</p>
                 <p>{blog}</p>
                 <p>{faq}</p>
               </div>

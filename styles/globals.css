@@ -13,10 +13,9 @@ a {
     margin: 0px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: .8rem !important;
+    font-size: .9rem !important;
     line-height: 1.5;
     letter-spacing: 0.00938em;
-    display: none;
 }
 .modal_secondPart__maq6S form label {
   font-weight: 800;
@@ -24,6 +23,11 @@ a {
 }
 @media only screen and (max-width: 690px) {
   .MuiFormControlLabel-label {
-    font-size: 0.7rem !important;
+    font-size: 0.9rem ! important ;
   }
+.MuiButtonBase-root .MuiRadio-colorPrimary .PrivateSwitchBase-root .MuiRadio-root{
+  width: .5rem;
+}
+
+  
 }

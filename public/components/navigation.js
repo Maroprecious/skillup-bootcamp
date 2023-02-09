@@ -27,7 +27,7 @@ const Navigation = () => {
           <Link href="#2" style={{color: "#000", fontWeight: "300"}}> Courses</Link>
         </p>
         <p className={style.navlink}>
-          <Link href="#" style={{color: "#000", fontWeight: "300"}}> Sign In</Link>
+          <Link href="#3" style={{color: "#000", fontWeight: "300"}}> Sign In</Link>
         </p>
       </div>
       <button className={style.regBtn} onClick={() => setIsModalOpen(true)}>Register</button>

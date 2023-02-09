@@ -1,10 +1,13 @@
 import style from "../../styles/hero.module.css";
 import Link from "next/link";
+
+
 const Hero = () => {
+
   return (
     <div className={style.heroBack}>
       <div className={style.texts}>
-        <h2>Launch your software Development journey<br/> In <span style={{color: "#C36E54"}}>3 months</span></h2>
+        <h2 className="header" id="header">Launch your software Development journey<br/> In <span style={{color: "#C36E54"}}>3 months</span></h2>
         <p className={style.para1}>
           Become a part of the top 1% companies are constantly on the lookout
           for.<br/> In this boot camp, we focus only on the important bits you need
@@ -23,7 +26,7 @@ const Hero = () => {
         <div className={style.lines}>
         <img src="/images/line.png" />
         </div>
-        <Link className={style.call} href="#" style={{color: "#fff"}}> Call Us</Link>
+        <Link className={style.call} href="tel:+2348145405006" style={{color: "#fff"}}> Call Us</Link>
       </div>
       <div className={style.image}>
       <img src="/images/n.png"/>

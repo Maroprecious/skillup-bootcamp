@@ -31,35 +31,37 @@ export default function BasicModal({ open, setOpen }) {
             <div className={styles.modaltext}>
               <div className={styles.partOne}>
                 <div className={styles.parttext}>
-                <h3>Welcome!</h3>
-                <p>Create an account and we'll reply shortly</p>
+                  <h3>Welcome!</h3>
+                  <p>Create an account and we'll reply shortly</p>
                 </div>
                 <div className={styles.partImg}>
                   <img src="/images/girl.png" />
                 </div>
               </div>
               <div className={styles.secondPart}>
-                <div className={styles.modalImg}>
-                  <img src="/images/logo.svg" />
-                </div>
-                <form>
-                  <span>
-                    <label>First Name</label>
-                    <input type="name" />
-                  </span>
-                  <span>
-                    <label>Last Name</label>
-                    <input type="name" />
-                  </span>
-                  <span>
-                    <label>Email Address</label>
-                    <input type="email" label="Email Address" />
-                  </span>
-                  <div className={styles.radio}>
-                    <RadioButtonsGroup />
-                    <button>Submit</button>
+                <div className={styles.secondPartinfo}>
+                  <div className={styles.modalImg}>
+                    <img src="/images/logo.svg" />
                   </div>
-                </form>
+                  <form>
+                    <span>
+                      <label>First Name</label>
+                      <input type="name" />
+                    </span>
+                    <span>
+                      <label>Last Name</label>
+                      <input type="name" />
+                    </span>
+                    <span>
+                      <label>Email Address</label>
+                      <input type="email" label="Email Address" />
+                    </span>
+                    <div className={styles.radio}>
+                      <RadioButtonsGroup />
+                      <button>Submit</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
