@@ -243,8 +243,8 @@
     width: 100%;
   }
   .para{
-    font-size: .65rem;
-    line-height: 1rem;
+    font-size: .85rem;
+    line-height: 1.2rem;
   }
   .span {
     font-size: 22px;
@@ -253,6 +253,6 @@
     border-radius: 12px;
   }
   .head {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 }

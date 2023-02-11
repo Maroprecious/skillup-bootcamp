@@ -226,6 +226,13 @@
   .list p {
     font-size: 0.7rem;
   }
+  .footLogo {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footData{
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 440px) {
   .emailContainer h3 {
@@ -255,7 +262,7 @@
     font-size: .9rem;
   }
   .list h3 {
-    font-size: 0.8rem;
+    font-size: 0.72rem;
   }
   .list p {
     font-size: 0.65rem;
@@ -294,10 +301,13 @@
         height: 1.5rem;
     }
     .list h3 {
-      font-size: 0.8rem;
+      font-size: 0.65rem;
     }
     .list p {
       font-size: 0.55rem;
+    }
+    .footData{
+      width: 87%;
     }
   }
   @media only screen and (max-width: 330px){
